@@ -19,7 +19,7 @@ public class Posts extends BaseTimeEntity {
     //해당 테이블의 PK필드를 나타낸다.
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     //PK 생성 규칙을 나타낸다.
-    private Long Id;
+    private Long id;
 
     @Column(length = 500,nullable = false)
     //테이블의 칼럼을 나타낸다. 굳이 선언하지 않더라도 해당 클래스의 필드느 모두 칼럼이 된다.
